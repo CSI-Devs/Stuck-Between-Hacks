@@ -26,7 +26,7 @@ form, iframe, noscript {
 
 #insta {
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-  -webkit-background-clip: text;
+  -webkit-background-clip-background-clip: text;
   /* Also define standard property for compatibility */
   -webkit-background-clip-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -481,6 +481,7 @@ img {
           animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+          font-size: larger;
 }
 
 @keyframes Gradient {
@@ -592,6 +593,7 @@ img {
 .sponsors .img-fluid {
   max-width: 100%;
   height: auto;
+  border-radius: 12px;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
 }
@@ -599,6 +601,7 @@ img {
 .sponsors .img-fluid:hover {
   -webkit-transform: scale(1.05, 1.05);
           transform: scale(1.05, 1.05);
+          box-shadow: 0px 0px 30px rgb(230, 142, 34);
 }
 
 .sponsors .underline--magical {
@@ -610,6 +613,7 @@ img {
           animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+          font-size: larger;
 }
 
 @keyframes Gradient {
@@ -725,6 +729,7 @@ img {
           animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+          font-size: larger;
 }
 
 @keyframes Gradient {
@@ -890,6 +895,7 @@ img {
           animation: Gradient 2s ease infinite;
   -webkit-animation-play-state: paused;
           animation-play-state: paused;
+          font-size: larger;
 }
 
 @keyframes Gradient {
@@ -1161,4 +1167,3 @@ footer .footer-content a {
     margin-top: 0;
   }
 }
-/*# sourceMappingURL=main.css.map */
