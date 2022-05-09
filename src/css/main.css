@@ -861,7 +861,7 @@ img {
 .map .right .alert {
   text-align: center;
   padding: 10px;
-  background: #79c879;
+  /* background: #79c879; */
   font-size: 1.1em;
   color: #fff;
   margin-bottom: 10px;
