@@ -473,14 +473,14 @@ img {
   text-align: center;
   font-size: 60px;
   margin-top: 0px;
-  -webkit-animation-name: scaling;
+  /* -webkit-animation-name: scaling;
   animation-name: scaling;
   animation-duration: 1s ;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation: name duration timing-function delay iteration-count direction fill-mode;
   -webkit-animation-play-state: running;
-  animation-play-state: running ;
+  animation-play-state: running ; */
 }
 
 @keyframes scaling {
