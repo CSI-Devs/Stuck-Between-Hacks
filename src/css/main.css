@@ -639,7 +639,7 @@ img {
 .sponsors .img-fluid:hover {
   -webkit-transform: scale(1.05, 1.05);
           transform: scale(1.05, 1.05);
-          box-shadow: 0px 0px 30px rgb(230, 142, 34);
+          box-shadow: 0px 0px 30px #50EAAF;
 }
 
 .sponsors .underline--magical {
