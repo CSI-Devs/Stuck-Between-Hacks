@@ -469,7 +469,7 @@ img {
   margin: 25%;
   padding: 3%;
   border-radius: 60px;
-  box-shadow: 0px 0px 30px rgb(118, 60, 177);
+  box-shadow: 0px 0px 30px rgb(117, 41, 193);
   text-align: center;
   font-size: 60px;
   margin-top: 0px;
@@ -895,7 +895,7 @@ img {
 
 .map .right form #input-submit {
   /* margin-top: 0.2rem; */
-  border-radius: 30px;
+  /* border-radius: 30px;
   position: relative;
   display: inline;
   align-items: center;
@@ -903,12 +903,33 @@ img {
   width: 8em;
   color: white;
   background: #3e81d8;
+  cursor: pointer; */
+  width: 200px;
+  height:70px;
+  border-radius:45px;
+  font-size:1.2rem;
+  font-weight: 900;
+  background-color: #13191E;
+  color:#fff;
+  border: 1px solid;
+  transition:all ease;
+  transition-delay: 0.05s;
   cursor: pointer;
+  position: relative;
+  display: inline;
+  align-items: center;
+  top: 2%;
+  width: 8em;
 }
 
 .map .right form #input-submit:hover{
-  background-color: #10396e;
-  transform: scale(1.1);
+  /* background-color: #10396e;
+  transform: scale(1.1); */
+  box-shadow: 0 0 20px #3e81d8,0 0 10px #769ed3;
+  border: 4px solid #598fd5;
+  background: #3e81d8;
+  color:#000;
+  transition: background 1s, box-shadow 1s, color 1s;
 }
 
 
