@@ -455,6 +455,26 @@ img {
   margin-top: 20em;
 }
 
+
+#ready-clock{
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: larger;
+  margin: 5%;
+}
+
+#clock {
+  align-items: center;
+  border: 5px  rebeccapurple;
+  margin: 25%;
+  padding: 3%;
+  border-radius: 60px;
+  box-shadow: 0px 0px 30px rgb(118, 60, 177);
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+
 .schedule h1 {
   font-family: 'Muli', sans-serif;
   font-weight: 700;
