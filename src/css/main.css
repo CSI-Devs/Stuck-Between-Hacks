@@ -676,6 +676,29 @@ img {
   display: none;
 }
 
+
+.prizes-tiles{
+  float: 25%;
+}
+
+.prizes .underline--magical{
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  background-repeat: no-repeat;
+  background-size: 300% .05em;
+  background-position: 0 100%;
+  -webkit-animation: Gradient 2s ease infinite;
+          animation: Gradient 2s ease infinite;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+          font-size: larger;
+}
+
+.prizes .underline--magical:hover{
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+
 .faq {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -861,7 +884,7 @@ img {
 .map .right .alert {
   text-align: center;
   padding: 10px;
-  background: #79c879;
+  /* background: #79c879; */
   font-size: 1.1em;
   color: #fff;
   margin-bottom: 10px;
