@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!-- Favicon tag -->
-    <link rel="shortcut icon" href="assets/DEMO LOGO.PNG.jpeg" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
     <title>Stuck Between Hacks</title>
     <meta name="description" content="stuck betweens hacks is one the biggest hackathon in JUET's history">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -411,7 +411,7 @@
                   // If the count down is finished, write some text
                   if (distance < 0) {
                     clearInterval(x);
-                    document.getElementById("clock").innerHTML = "EXPIRED";
+                    document.getElementById("clock").innerHTML = "Hackathon is on";
                   }
                 }, 1000);
                 </script>
@@ -422,19 +422,11 @@
             <img src="assets/Schedule/x_green.png" alt="Green X">
         </div>
     </section>
-    <!-- <section class="schedule" id="schedule">
-        <div class="container schedule-content">
-            <h1 class="heading"><span class="underline--magical">Event Schedule</span></h1>
-            <h2>The schedule will be posted soon.</h2>
-        </div>
-        <div class="absolute-asset x-green">
-            <img src="assets/Schedule/x_green.png" alt="Green X">
-        </div>
-    </section> -->
+
     <section class="sponsors" id="sponsors">
         <div class="container sponsors-content">
             <h1 class="heading"><span class="underline--magical">Sponsors</span></h1>
-            
+            <br><br>
             <div class="row justify-content-center">
                 <a href="https://devfolio.co/" rel="external nofollow" target="_blank">
                     <div class="logo">
@@ -466,68 +458,64 @@
                         <img class="img-fluid" src="assets/Sponsors/celo2.png" alt="Celo Logo">
                     </div>
                 </a>
-            </div>
-            
-                   
-
-            
+            </div>  
+            <br>
+            <br>
             <h2>We'd love to have you as a sponsor!</h2>
+            <br>
             <h3>Please e-mail us  <a href="mailto:connectwithspandan@gmail.com?">here</a>.</h3>
             
         </div>
         <div class="absolute-asset circle-pink">
             <img src="assets/Sponsors/circle_pink.png" alt="Pink Circle">
         </div>
+        <div class="absolute-asset-triangle_purple">
+            <img src="assets/Info/triangle_purple.png" alt="triangle_purple">
+        </div>
+       
     </section>
 
 
-    <!-- Prizes section-->
+    <!-- Prizes section-->    
 
-    <section class="prizes">
+    <section class="prizes" id="prizes">
+        
         <div class="container prizes-content">
-            <h1 class="heading"><span class="underline--magical">Prizes</span></h1>
-                <br><br>
+            <!--  -->
+            <h1 class="heading-prizes"><span class="Track-Prize">Track Prizes</span></h1>
+            <br><br>
+            <div class="row justify-content-center">
+            
+                <a href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c" rel="external nofollow" target="_blank">
+                    
+                        <img class="img-fluid-prizes" src="polygonPrize.png" alt="Polygon Prizes">
+                    
+                </a>
+                <a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff" rel="external nofollow" target="_blank">
+                  
+                        <img class="img-fluid-prizes" src="tezosPrize.png" alt="Tezos Prizes">
+                    
+                </a>
+           
+                <a href="https://www.notion.so/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203" rel="external nofollow" target="_blank">
+                    
+                    <img class="img-fluid-prizes" src="filecoinPrize.png" alt="Filecoin Prizes">                    
+                </a>
+                <a href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0" rel="external nofollow" target="_blank">
+                    
+                        <img class="img-fluid-prizes" src="celoPrize.png" alt="Celo Prizes">
+                    
+                </a>
                 
-                <div class="row justify-content-center" width="100%">
-    
-                        
-                            <a href="https://www.notion.so/Polygon-Devfolio-Hackathon-Season-Prize-de8961d5eeff4780963749da0b75037c">
-                                <div class="logo">
-                                    <img  class="img-fluid" src="polygonPrize.png" >
-                                </div>
-                            </a>
-    
-                       
-                            <a href="https://www.notion.so/Tezos-Devfolio-Hackathon-Season-Prize-e90b6811b0df43e5a7dadf534fc000ff">
-                                <div class="logo">
-                                    <img class="img-fluid"src="tezosPrize.png" >
-                                </div>
-                            </a>
-                        </div>
-                        
-                        <div class="logo">
-                            <a href="https://www.notion.so/Celo-Devfolio-Hackathon-Season-Prize-8b98dac17f134abeae863d5d98c01ff0">
-                                <img class="img-fluid" src="celoPrize.png" >;
-                            </a>
-                        </div>
-                        <div class="logo">
-                            <a href="https://www.notion.so/Filecoin-Devfolio-Hackathon-Season-Prize-998fc3fe477e474086ae1d5ed1685203">
-                                <img class="img-fluid" src="filecoinPrize.png" >
-                            </a>
-                        </div>
-                        
-
-                </div>
             </div>
-
-
+            
         </div>
     </section>
 
     <section class="faq" id="faq">
         <div class="container faq-content">
             <h1 class="heading"><span class="underline--magical">Frequently Asked Questions</span></h1>
-            <br><br>
+            <br><br><br>
             <div class="row">
                 <div class="faq-qa">
                     <h3>What is Stuck between hacks?</h3>
@@ -561,7 +549,7 @@
                 <div class="faq-qa">
                     <h3>Is there a code of conduct?</h3>
                     <p>Yes, Please follow all school rules and be respectful to all participants. Feel free to read our
-                        code of conduct <a href="STUCK BETWEEN HACKS.pdf" rel="external nofollow" target="_blank" style="color:#216eba;">here</a>.</p>
+                        code of conduct <a class="faq-a" href="STUCK BETWEEN HACKS.pdf" rel="external nofollow" target="_blank" style="color:#216eba;">here</a>.</p>
                 </div>
                 <div class="faq-qa">
                     <h3>What’s the cost for attending it?</h3>
@@ -581,8 +569,11 @@
                     <!-- <h3>What if I have another question?</h3> -->
                     <p>Still have something that we didn't mention here?
                         Shoot us with email
-                        <a href="mailto:connectwithspandan@gmail.com?subject=Mail for other queries" rel="external nofollow" style="color:#216eba ;" target="_blank">here</a>.
+                        <a class="faq-a" href="mailto:connectwithspandan@gmail.com?subject=Mail for other queries" rel="external nofollow" style="color:#216eba ;" target="_blank">here</a>.
                     </p>
+                </div>
+                <div class="absolute-asset-squig-yellow">
+                    <img src="assets/Info/squig_yellow.png" alt="Yellow Squigly Line">
                 </div>
             </div>
         </div>
