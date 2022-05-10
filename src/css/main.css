@@ -462,9 +462,9 @@ img {
   display: none;
 }
 
-.about .triangle-purple-2 {
+.triangle-purple-2 {
   top: 950px;
-  left: 50px;
+  right: -100px;
   display: none;
 }
 
@@ -740,7 +740,7 @@ img {
 }
 
 .prizes .img-fluid-prizes {
-  max-width: 400px;
+  max-width: 350px;
   height: auto;
   border-radius: 12px;
   -webkit-transition: 0.3s ease;
