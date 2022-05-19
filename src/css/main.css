@@ -223,6 +223,8 @@ img {
   max-width: 75vw;
   margin-top: 2em;
   margin-bottom: 5em;
+  border-radius: 50%;
+  box-shadow: 0px 0px 30px #0c0e80;
 }
 
 .hero-content h2 {
@@ -733,7 +735,8 @@ img {
   font-weight: 400;
   font-size: 1.25em;
   line-height: 1.5em;
-  padding-right: 2em;
+  /* padding-right: 2em; */
+  
 }
 
 .faq a {
